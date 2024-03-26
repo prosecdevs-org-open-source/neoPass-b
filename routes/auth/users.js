@@ -73,7 +73,7 @@ const transporter = nodemailer.createTransport({
 // Send Mail with OTP function
 const sendMail = async (toEmail, otp) => {
     const mailOptions = {
-        from: `"iBharat.org" <${process.env.USER}>`,
+        from: `"theonepass" <${process.env.USER}>`,
         to: toEmail,
         subject: "Email Confirmation OTP",
         html: `<p>Your OTP is: ${otp}</p>`,
