@@ -4,7 +4,7 @@ const app = express();
 const cors = require('cors');
 var compression = require('compression');
 const db = require('./configs/db');
-
+const all_routes = require('./all_route.js');
 
 
 
